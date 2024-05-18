@@ -134,6 +134,7 @@
               Extra sushi <input type="checkbox" name="add-ons" />
             </label>
           </section>
+          <textarea rows="15" placeholder="For special requests"></textarea>
           <input type="submit" value="Go To Checkout" />
         </form>
       </section>
@@ -208,14 +209,21 @@
       }
 
       label,
-      input {
+      input,
+      textarea {
         display: block;
       }
 
-      input {
+      input,
+      textarea {
         padding: 8px;
         font-size: unset;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
         width: 100%;
+      }
+
+      textarea {
+        margin-top: 16px;
       }
 
       input[type="checkbox"] {
