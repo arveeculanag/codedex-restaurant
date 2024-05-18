@@ -10,8 +10,8 @@
       <nav>
         <h1>Arvee</h1>
         <ul>
-          <li><a href="#">Menu</a></li>
-          <li><a href="#">Order</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#order-form">Order</a></li>
         </ul>
       </nav>
       <figure>
@@ -29,7 +29,7 @@
       </figure>
     </header>
     <main>
-      <section>
+      <section id="menu">
         <h2>Menu</h2>
         <article>
           <figure>
@@ -104,7 +104,7 @@
           </p>
         </article>
       </section>
-      <section>
+      <section id="order-form">
         <h2>Place Your Order</h2>
         <form action="">
           <section class="menus">
@@ -221,6 +221,10 @@
       input[type="checkbox"] {
         width: auto;
         display: inline;
+      }
+
+      html {
+        scroll-behavior: smooth;
       }
 
       body {
